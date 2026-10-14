@@ -1,0 +1,8 @@
+# Normalise line endings, keep binaries intact
+* text=auto
+
+*.png   binary
+*.apk   binary
+*.aab   binary
+*.jar   binary
+*.keystore binary

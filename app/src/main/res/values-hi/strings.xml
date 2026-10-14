@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">स्क्रीन ऑफ़ विजेट</string>
+    <string name="widget_stop">रोकें</string>
+    <string name="widget_start">शुरू</string>
+    <string name="widget_idle">आइडल बंद · %1$d से तैयार</string>
+    <string name="widget_counting">%1$d सेकंड बेकाम के बाद स्क्रीन बंद</string>
+    <string name="widget_counting_repeat">%1$d सेकंड बेकाम के बाद स्क्रीन बंद (दोहराव)</string>
+    <string name="widget_needs_write">अनुमति चाहिए – ऐप खोलें</string>
+    <string name="widget_custom">कस्टम</string>
+    <string name="widget_custom_sel">%1$d से</string>
+    <string name="wchip_1min">1मिन</string>
+    <string name="wchip_2min">2मिन</string>
+    <string name="app_btn_start">शुरू</string>
+    <string name="app_btn_stop">रोकें</string>
+    <string name="lang_row_title">🌐 भाषा</string>
+    <string name="lang_sys">सिस्टम</string>
+    <string name="lang_toast">भाषा बदल गई</string>
+    <string name="sel_custom_secs_fmt">%1$d से</string>
+
+    <string name="notif_channel">आइडल स्क्रीन-बंद</string>
+    <string name="alert_channel">सूचनाएँ</string>
+    <string name="notif_countdown">%1$d सेकंड बेकाम के बाद स्क्रीन बंद होगी।</string>
+    <string name="notif_countdown_repeat">दोहराव चालू · %1$d सेकंड बेकाम के बाद स्क्रीन बंद।</string>
+    <string name="notif_waiting">आइडल स्क्रीन-बंद तैयार…</string>
+    <string name="notif_action_stop">रोकें</string>
+
+    <string name="needs_write_status">स्क्रीन-टाइमआउट अनुमति चाहिए — नीचे दिया बटन दबाएँ।</string>
+    <string name="grant_write_btn">स्क्रीन-टाइमआउट नियंत्रण दें</string>
+    <string name="grant_write_hint">सिर्फ आपकी Display → Sleep सेटिंग बदलता है। कोई डिवाइस एडमिन नहीं, कोई एक्सेसिबिलिटी नहीं — बैंकिंग ऐप्स इसे नहीं देख सकते।</string>
+    <string name="off_now_label">अभी बंद (~5 से आइडल)</string>
+    <string name="off_now_toast">डिस्प्ले लगभग 5 सेकंड बेकाम के बाद बंद होगा।</string>
+    <string name="write_settings_unavailable">यह स्क्रीन इस डिवाइस पर उपलब्ध नहीं है।</string>
+
+    <string name="repeat_label">दोहराव मोड (हर स्क्रीन-चालू पर फिर से; रोकने तक)</string>
+    <string name="repeat_on_toast">दोहराव चालू — हर स्क्रीन-चालू पर आइडल टाइमर फिर लगेगा।</string>
+    <string name="repeat_off_toast">दोहराव बंद — एक बार आइडल-बंद, फिर आपकी मूल टाइमआउट वापस।</string>
+    <string name="custom_range_toast">3 से 3600 सेकंड के बीच मान लिखें।</string>
+    <string name="custom_applied_toast">कस्टम देरी %1$d सेकंड सेट हुई।</string>
+    <string name="custom_hint">3–3600 सेकंड</string>
+    <string name="custom_dialog_title">कस्टम देरी (सेकंड)</string>
+    <string name="app_status_idle">चयनित: %1$s — “शुरू” दबाकर चालू करें</string>
+    <string name="app_sel_1min">1 मिन</string>
+    <string name="app_sel_2min">2 मिन</string>
+    <string name="app_sel_custom_fmt">कस्टम · %1$s</string>
+    <string name="sel_toast_fmt">देरी %1$s सेट हुई</string>
+
+    <string name="howto_title">विजेट जोड़ें</string>
+    <string name="howto_text">1. होम स्क्रीन पर खाली जगह देर तक दबाएँ।\n2. “विजेट्स” पर टैप करें।\n3. “Screen Off Widget” चुनकर कहीं भी छोड़ें।\n\nकोई डिवाइस एडमिन नहीं, कोई एक्सेसिबिलिटी नहीं — ऐप आपका सिस्टम आइडल स्क्रीन-टाइमर (Display → Sleep) बदलता है, तो स्क्रीन बिल्कुल नैचुरल आइडल जैसी बंद होगी। बैंकिंग-सेफ़।\n\nदोनों जगह एक ही देरी: 1 मिन / 2 मिन / कस्टम (3–3600 सेकंड)। ऐप में टैब सिर्फ देरी चुनते हैं, “शुरू” चालू करता है। विजेट पर चिप तुरंत चालू करती है। दोहराव चालू होने पर हर स्क्रीन-चालू पर आइडल टाइमर फिर लगता है, “रोकें” तक; बंद होने पर एक आइडल-बंद के बाद आपकी मूल टाइमआउट वापस आ जाती है।</string>
+</resources>

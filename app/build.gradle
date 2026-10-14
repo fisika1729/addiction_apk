@@ -1,0 +1,44 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.screenoff.widget'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.screenoff.widget"
+        minSdk 21
+        targetSdk 35
+        versionCode 10
+        versionName "1.9"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('release.keystore')
+            storePassword 'screenoff123'
+            keyAlias 'screenoff'
+            keyPassword 'screenoff123'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    lint {
+        abortOnError = false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+}

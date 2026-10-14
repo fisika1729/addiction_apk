@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Off Widget</string>
+    <string name="widget_stop">STOP</string>
+    <string name="widget_start">START</string>
+    <string name="widget_idle">Idle-off · arm %1$ds</string>
+    <string name="widget_counting">Screen off after %1$d s idle</string>
+    <string name="widget_counting_repeat">Screen off after %1$d s idle (repeat)</string>
+    <string name="widget_needs_write">Permission needed – open the app</string>
+    <string name="widget_custom">custom</string>
+    <string name="widget_custom_sel">%1$ds</string>
+    <string name="wchip_1min">1min</string>
+    <string name="wchip_2min">2min</string>
+    <string name="app_btn_start">Start</string>
+    <string name="app_btn_stop">Stop</string>
+    <string name="lang_row_title">🌐 Language</string>
+    <string name="lang_sys">System</string>
+    <string name="lang_en">English</string>
+    <string name="lang_hi">हिंदी</string>
+    <string name="lang_ta">தமிழ்</string>
+    <string name="lang_toast">Language updated</string>
+    <string name="sel_custom_secs_fmt">%1$d s</string>
+
+    <string name="notif_channel">Idle screen-off</string>
+    <string name="alert_channel">Alerts</string>
+    <string name="notif_countdown">Screen will turn off after %1$d s of inactivity.</string>
+    <string name="notif_countdown_repeat">Repeat ON · screen off after %1$d s idle.</string>
+    <string name="notif_waiting">Idle screen-off armed…</string>
+    <string name="notif_action_stop">Stop</string>
+
+    <string name="needs_write_status">Screen-timeout permission needed — tap the button below.</string>
+    <string name="grant_write_btn">Grant screen-timeout control</string>
+    <string name="grant_write_hint">Only adjusts your existing Display → Sleep setting. No device admin, no accessibility — banking apps see nothing.</string>
+    <string name="off_now_label">Off now (~5 s idle)</string>
+    <string name="off_now_toast">Display turns off in about 5 s of idle.</string>
+    <string name="write_settings_unavailable">This screen is not available on this device.</string>
+
+    <string name="repeat_label">Repeat mode (re-arm after every screen-on until stopped)</string>
+    <string name="repeat_on_toast">Repeat ON — idle timer re-arms after every wake-up.</string>
+    <string name="repeat_off_toast">Repeat OFF — one idle-off, then your original timeout is restored.</string>
+    <string name="custom_range_toast">Enter seconds between 3 and 3600.</string>
+    <string name="custom_applied_toast">Custom delay %1$d s selected.</string>
+    <string name="custom_hint">3–3600 s</string>
+    <string name="custom_dialog_title">Custom delay (seconds)</string>
+    <string name="app_status_idle">Selected: %1$s — tap START to arm</string>
+    <string name="app_sel_1min">1min</string>
+    <string name="app_sel_2min">2min</string>
+    <string name="app_sel_custom_fmt">custom · %1$s</string>
+    <string name="sel_toast_fmt">Delay set to %1$s</string>
+
+    <string name="howto_title">Add the widget</string>
+    <string name="howto_text">1. Go to your home screen and long-press an empty spot.\n2. Tap “Widgets”.\n3. Find “Screen Off Widget” and drag it anywhere.\n\nNo device admin and no accessibility — the app adjusts your system idle-screen timer (Display → Sleep), so the screen turns off exactly like natural idle. Banking-safe.\n\nBoth surfaces use the same delay: 1min / 2min / custom (3–3600 s). In the app the tabs only SELECT the delay and START arms it. On the widget the chips also arm instantly. Repeat switch: when ON, every screen-on re-arms the idle timer until you tap STOP; when OFF, your original timeout is restored after one idle-off.</string>
+</resources>

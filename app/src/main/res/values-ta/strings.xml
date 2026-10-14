@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">திரை அணைப்பு விட்ஜெட்</string>
+    <string name="widget_stop">நிறுத்து</string>
+    <string name="widget_start">தொடங்கு</string>
+    <string name="widget_idle">ஓய்வு-அணைப்பு · %1$d விநாடி தயார்</string>
+    <string name="widget_counting">%1$d விநாடி ஓய்வுக்குப் பின் திரை அணையும்</string>
+    <string name="widget_counting_repeat">%1$d விநாடி ஓய்வுக்குப் பின் திரை அணையும் (மீள்தொடர்)</string>
+    <string name="widget_needs_write">அனுமதி தேவை – ஆப்பைத் திறக்கவும்</string>
+    <string name="widget_custom">கஸ்டம்</string>
+    <string name="widget_custom_sel">%1$d வி</string>
+    <string name="wchip_1min">1நிமி</string>
+    <string name="wchip_2min">2நிமி</string>
+    <string name="app_btn_start">தொடங்கு</string>
+    <string name="app_btn_stop">நிறுத்து</string>
+    <string name="lang_row_title">🌐 மொழி</string>
+    <string name="lang_sys">சிஸ்டம்</string>
+    <string name="lang_toast">மொழி மாற்றப்பட்டது</string>
+    <string name="sel_custom_secs_fmt">%1$d வி</string>
+
+    <string name="notif_channel">ஓய்வு திரை-அணைப்பு</string>
+    <string name="alert_channel">எச்சரிக்கைகள்</string>
+    <string name="notif_countdown">%1$d விநாடி ஓய்வுக்குப் பின் திரை அணையும்.</string>
+    <string name="notif_countdown_repeat">மீள்தொடர் ON · %1$d விநாடி ஓய்வுக்குப் பின் திரை அணையும்.</string>
+    <string name="notif_waiting">ஓய்வு திரை-அணைப்பு தயார்…</string>
+    <string name="notif_action_stop">நிறுத்து</string>
+
+    <string name="needs_write_status">திரை-நேர அனுமதி தேவை — கீழேயுள்ள பொத்தானை அழுத்தவும்.</string>
+    <string name="grant_write_btn">திரை-நேர கட்டுப்பாடு வழங்கவும்</string>
+    <string name="grant_write_hint">உங்கள் Display → Sleep அமைப்பை மட்டுமே மாற்றுகிறது. டிவைஸ் நிர்வாகி இல்லை, அணுகல் இல்லை — வங்கி ஆப்கள் எதையும் காணா.</string>
+    <string name="off_now_label">உடனே அணை (~5 வி ஓய்வு)</string>
+    <string name="off_now_toast">திரை சுமார் 5 விநாடி ஓய்வுக்குப் பின் அணையும்.</string>
+    <string name="write_settings_unavailable">இந்த திரை இந்த சாதனத்தில் கிடைக்கவில்லை.</string>
+
+    <string name="repeat_label">மீள்தொடர் மோட் (ஒவ்வொரு திரை-ஆனத்திலும்; நிறுத்தும் வரை)</string>
+    <string name="repeat_on_toast">மீள்தொடர் ON — ஒவ்வொரு திரை-ஆனத்திலும் ஓய்வு டைமர் மீண்டும் அமையும்.</string>
+    <string name="repeat_off_toast">மீள்தொடர் OFF — ஒருமுறை ஓய்வு-அணைப்பு, பின் உங்கள் அசல் நேரம் மீட்டமை.</string>
+    <string name="custom_range_toast">3 முதல் 3600 விநாடி வரை உள்ளிடவும்.</string>
+    <string name="custom_applied_toast">கஸ்டம் தாமதம் %1$d விநாடி அமைக்கப்பட்டது.</string>
+    <string name="custom_hint">3–3600 விநாடி</string>
+    <string name="custom_dialog_title">கஸ்டம் தாமதம் (விநாடிகள்)</string>
+    <string name="app_status_idle">தேர்வு: %1$s — “தொடங்கு” அழுத்தி துவக்கவும்</string>
+    <string name="app_sel_1min">1 நிமி</string>
+    <string name="app_sel_2min">2 நிமி</string>
+    <string name="app_sel_custom_fmt">கஸ்டம் · %1$s</string>
+    <string name="sel_toast_fmt">தாமதம் %1$s அமைக்கப்பட்டது</string>
+
+    <string name="howto_title">விட்ஜெட் சேர்க்கவும்</string>
+    <string name="howto_text">1. முகப்புத்திரையின் காலியிடத்தை நீளமாக அழுத்திப் பிடிக்கவும்.\n2. “விட்ஜெட்கள்” தட்டவும்.\n3. “Screen Off Widget” தேர்ந்து எங்கும் விடவும்.\n\nடிவைஸ் நிர்வாகி இல்லை, அணுகல் இல்லை — ஆப் உங்கள் சிஸ்டம் ஓய்வு-திரை டைமரை (Display → Sleep) மாற்றுகிறது, எனவே திரை இயல்பான ஓய்வு போலவே அணையும். வங்கி-பாதுகாப்பு.\n\nஇரண்டு இடத்திலும் ஒரே தாமதம்: 1நிமி / 2நிமி / கஸ்டம் (3–3600 லவநாடி)… ஆப்பில் டேப்கள் தாமதத்தைத் தேர்வு செய்யும், “தொடங்கு” துவக்கும். விட்ஜெட் சிப்கள் உடனடியாகத் துவக்கும். மீள்தொடர் இயக்கத்தில் ஒவ்வொரு திரை-ஆனத்திலும் டைமர் மீண்டும் அமையும், “நிறுத்து” வரை; அணைத்தால் ஒருமுறை ஓய்வு-அணைப்புக்குப் பின் அசல் நேரம் திரும்பும்.</string>
+</resources>

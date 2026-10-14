@@ -1,0 +1,27 @@
+# ============ Toolchain (1GB+ — machine-specific, NOT for git) ============
+/jdk/
+/android-sdk/
+/tools/
+
+# Gradle caches/distributions pulled outside the project
+/.gradle/
+.gradle-proj-tmp/
+
+# ============ Build outputs ================================================
+/app/build/
+/build/
+*.log
+.gradle-proj-tmp/
+
+# ============ Local machine config ========================================
+/local.properties
+
+# ============ Secrets ======================================================
+# Signing key stays OUT of git. Back it up separately!
+app/release.keystore
+
+# ============ IDE / OS junk ===============================================
+.idea/
+*.iml
+.vscode/
+.DS_Store
